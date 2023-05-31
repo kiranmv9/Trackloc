@@ -21,6 +21,7 @@ code {
   padding: 0px 100px;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
 }
 
 /* --------------Home style------------------ */
