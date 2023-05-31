@@ -21,7 +21,8 @@ code {
   padding: 0px 100px;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  position: sticky;
+  top: 0px;
 }
 
 /* --------------Home style------------------ */
