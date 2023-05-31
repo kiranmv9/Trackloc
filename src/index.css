@@ -12,6 +12,34 @@ code {
     monospace;
 }
 
+/* --------Signuppage Style---------- */
+
+.signup{
+  background-color: rgb(60, 46, 117);
+  border-radius: 20px;
+  width: 210px;
+  height: 230px;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* --------Loginpage Style---------- */
+
+.login{
+  background-color: rgb(60, 46, 117);
+  width: 210px;
+  height: 100px;
+  align-items: center;
+  margin: auto;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
 /* -------------Navabar style--------------- */
 .navbar{
   background-color: magenta;

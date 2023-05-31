@@ -10,13 +10,18 @@ import Embroiderydep from './components/Embroiderydep';
 import Printingdep from './components/Printingdep';
 import Sewingdep from './components/Sewingdep';
 import Finishingdep from './components/Finishingdep';
+import Signup from './components/Signup';
+import Login from './components/Login';
 
 function App() {
   return (
     <BrowserRouter>
     <div className="App" >
      <Navbar/>
+     <Signup/>
+     <Login/>
      <Home/>
+    
     
     <Routes>
     <Route path="/FabricDept" element={<Fabricdep/>}/>
