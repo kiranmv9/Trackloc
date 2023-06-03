@@ -58,6 +58,8 @@ code {
 .home{
   background-color: rgb(170, 133, 170);
   width: 100%;
+  align-items: center;
+  margin: auto;
   
 }
  .home img{
