@@ -12,6 +12,8 @@ import Sewingdep from './components/Sewingdep';
 import Finishingdep from './components/Finishingdep';
 import Signup from './components/Signup';
 import Login from './components/Login';
+import Addbatch from './components/Addbatch';
+import Changeover from './components/Changeover';
 
 function App() {
   return (
@@ -28,8 +30,10 @@ function App() {
    <Route path='/CuttingDept' element={<Cuttingdep/>}/>
    <Route path="/EmbroideryDept" element={<Embroiderydep/>}/>
    <Route path="/PrintingDept" element={<Printingdep/>}/>
-   <Route path="/SewingDept" element={<Sewingdep/>}/>
+   <Route path="/SewingDept" element={<Sewingdep />}/>
    <Route path="/FinishingDept" element={<Finishingdep/>}/>
+   <Route path="/Addbatch" element={<Addbatch/>}/>
+   <Route path="/Changeover" element={<Changeover/>}/>
     </Routes>
    
     </div>
